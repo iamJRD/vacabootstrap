@@ -9,11 +9,12 @@
 
 img {
   width: 100%;
-  height: inherit;
+  height: 400px;
+  max-height: 400px;
 }
 
 .item {
-  height: 400px;
+
 }
 
 .center {
@@ -30,4 +31,21 @@ img {
 
 .upperPadding {
   padding-top: 90px;
+}
+
+.glyphicon-send {
+  font-size: 60px;
+  color: green;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators .active {
+  background-color: green;
+}
+
+.carousel-indicators li {
+  border-color: green;
 }
